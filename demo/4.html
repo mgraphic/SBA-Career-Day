@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                text-align: center;
+                font-family: Arial;
+                background: black;
+                color: lime;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Hello Students 👋</h1>
+        <button onclick="changeText()">Click me</button>
+        <script>
+            function changeText() {
+                document.getElementById('title').innerText =
+                    'You just changed a website 😎';
+            }
+        </script>
+    </body>
+</html>
